@@ -1,0 +1,27 @@
+/* src/Square.css */
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square.x {
+  color: black;
+}
+
+.square.o {
+  color: green;
+}
